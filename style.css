@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+ }
+ body{
+   background-color:#328087;
+ }
+
+ 
+ .fixed-nav{
+  position: sticky;
+  top: 0;
+ }
+ 
+ .navbar{
+    display: flex;
+
+    
+    
+ }
+ h1{
+   
+   display: flex;
+   justify-content: center;
+   margin-top:20px;
+   text-shadow: 2px 2px blanchedalmond  ;
+   text-transform: capitalize;
+   color: #605b5b;
+   background-color: rgb(20, 18, 18);
+   margin-left: 200px;
+   margin-right: 200px;
+   border-radius: 20px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   cursor: none;
+
+   
+   
+ }
+ 
+ .nav{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding-right: 150px;
+    background:#333;
+    color: rgb(255, 255, 255);
+
+
+ }
+ 
+ .nav li {
+    margin: 10px;
+    font-size: 20px;
+    color: white;
+    font-weight:500 ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    
+ }
+ .nav li:hover{
+  color: rgb(158, 145, 145);
+ }
+ .logo-div{
+    
+    position: absolute;
+    left:10px;
+    top:0px;
+ }
+ .logo{
+    color: white;
+    background-color: #640b0b;
+    padding: 5px;
+    border-radius: 10px;
+    color: #ece6e6;
+ }
+ .row{
+   display: flex;
+   margin: 10px;
+   
+   
+ }
+ .god  {
+   width:700px ;
+   height: 500px;
+   margin: 60px;
+   border-radius: 50px;
+   background-color: pink;
+   overflow: hidden;
+   
+   
+   box-shadow: 3px 5px 20px #fe18b5;
+   cursor: pointer;
+
+
+ }
+ .god:hover{
+   width: 800px;
+   height: 550px;
+   box-shadow: 3px 15px 20px #0b0000;
+   
+   
+ }
+ .god img{
+   
+   max-width: 100%;
+   height: 100%;
+
+ }
+ footer .nav{
+   height: 150px;
+ }
+ footer .nav li  {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   padding-top: 20px;
+   cursor: pointer;
+   
+   
+
+
+ }
+ footer .nav li:hover{
+      color: rgb(158, 145, 145);
+ } 
+ footer .nav ul {
+   padding-top: 10px;
+   margin-left: 30px;
+   
+
+}
+   
+ 
+footer{
+ /* position: relative; */
+  position: sticky;
+
+}
+.footer1{
+  position: absolute;
+  left:20px;
+  bottom: 40px;
+  font-size: 20px;
+  font-family: cursive;
+
+
+}
